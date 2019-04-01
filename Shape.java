@@ -10,6 +10,7 @@ public abstract class Shape {
 		color = new Color( r,g,b).getRGB();
 	}
 	
+	//Intendation!
 		public void setColor(int color) {
 				this.color=color;
 		}

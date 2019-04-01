@@ -7,6 +7,7 @@ public Triangle (int a,int b) {
 	this.b=b;
 }
 	public  double pythagoras() {
+		//the correct formula is: Math.sqrt(Math.pow(a, 2)+ Math.pow(b,2))
 		 return Math.pow(a, 2)+ Math.pow(b,2);
 	}
 	public  double area() {
